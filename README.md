@@ -3,6 +3,7 @@
 ## 🔍 Overview
 
 This project involves creating a solver for Sudoku puzzles, using methods such as constraint propagation and optimization algorithms. The Sudoku puzzle is formalized as a constraint satisfaction problem (CSP) with specific rules and constraints. The solver is implemented using simulated annealing, a probabilistic optimization technique.
+![image](https://github.com/user-attachments/assets/205e5d88-de2e-473f-bc0e-1651440990ef)
 
 ## 📐 Problem Formalization
 
@@ -18,15 +19,11 @@ The puzzle includes pre-filled numbers, and the task is to complete the board wh
 
 The Sudoku puzzle can be defined as:
 
-Variables: Each cell in the 9×9 grid.
-
-Domains: The set of integers from 1 to 9.
-
-Constraints:
-
-Each digit appears only once per row, column, and sub-grid.
-
-All rows, columns, and sub-grids contain all digits from 1 to 9.
+- Variables: Each cell in the 9×9 grid.
+- Domains: The set of integers from 1 to 9.
+- Constraints:
+    - Each digit appears only once per row, column, and sub-grid.
+    - All rows, columns, and sub-grids contain all digits from 1 to 9.
 
 ## ⚙️ Implementation Details
 
